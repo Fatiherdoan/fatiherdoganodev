@@ -1,0 +1,307 @@
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/fe438/OneDrive/Masaüstü/gitörnek1/.git/
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   dosya1.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    dosya1.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   dosya1.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    dosya1.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git help init
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git config --local user.name"Fatiherdoan"
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git config --local user.mail"fe438269@gmail.com"
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git config user.name
+Fatiherdoan
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git config user.mail
+fe438269@gmail.com
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   dosya1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   dosya1.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   dosya1.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    dosya1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fatihdosya.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git add .
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   fatihdosya.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git commit -m "Dosya olusturuldu"
+[master (root-commit) e74f44e] Dosya olusturuldu
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fatihdosya.txt
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   fatihdosya.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git add .
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   fatihdosya.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        yenidosya1.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   fatihdosya.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   fatihdosya.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        yenidosya1.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git commit -m"fatihdosya baslık eklendi"
+[master 7c6ac13] fatihdosya baslık eklendi
+ 1 file changed, 1 insertion(+)
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   fatihdosya.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        yenidosya1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git add fatihdosya .
+fatal: pathspec 'fatihdosya' did not match any files
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git add fatihdosya.txt
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   fatihdosya.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        yenidosya1.txt
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git commit -m"ilk not yazıldı"
+[master 8702896] ilk not yazıldı
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git log
+commit 8702896247d1ae4afdc1aaae810815fa16f41a4d (HEAD -> master)
+Author: Fatiherdoan <you@example.com>
+Date:   Wed Nov 8 10:40:08 2023 +0300
+
+    ilk not yazıldı
+
+commit 7c6ac13cb0f5c73ee5db5e1ff10679e68d723cc5
+Author: Fatiherdoan <you@example.com>
+Date:   Wed Nov 8 10:37:28 2023 +0300
+
+    fatihdosya baslık eklendi
+
+commit e74f44eef8fe6bf9c2adabfe9ee3965b25e29668
+Author: Fatiherdoan <you@example.com>
+Date:   Wed Nov 8 10:33:24 2023 +0300
+
+    Dosya olusturuldu
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git log --oneline
+8702896 (HEAD -> master) ilk not yazıldı
+7c6ac13 fatihdosya baslık eklendi
+e74f44e Dosya olusturuldu
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git diff 7c6ac13...8702896
+diff --git a/fatihdosya.txt b/fatihdosya.txt
+index ceb4636..7e263ae 100644
+--- a/fatihdosya.txt
++++ b/fatihdosya.txt
+@@ -1 +1,2 @@
+-ders 5 notu
+\ No newline at end of file
++ders 5 notu
++ uml diyagramıni işledik
+\ No newline at end of file
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git remote --list
+error: unknown option `list'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git remote add origin https://github.com/Fatiherdoan/fatihrepomedipol2.git
+error: remote origin already exists.
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git remote add origin https://github.com/Fatiherdoan/fatihrepomedipol2.git
+error: remote origin already exists.
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ remote -v
+bash: remote: command not found
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git remote add origin https://github.com/Fatiherdoan/fatihrepomedipol2.git
+error: remote origin already exists.
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$ git push -u origin master
+
+
+
+
+
+fatal: User cancelled dialog.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Fatiherdoan/fatihrepomedipol1.git/'
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (9/9), 720 bytes | 720.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Fatiherdoan/fatihrepomedipol1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+fe438@fatiherdogan1 MINGW64 ~/OneDrive/Masaüstü/gitörnek1 (master)
+$
